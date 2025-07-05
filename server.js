@@ -6,7 +6,7 @@ const app = express();
 
 // Allow all origins for Vercel preview, or restrict as needed
 app.use(cors({
-  origin: '*',
+  origin: 'http://localhost:5173',
   credentials: true,
 }));
 
@@ -118,5 +118,5 @@ app.post('/api/receive-proofs', async (req, res) => {
   }
 });
 
-// Export the handler for Vercel
+
 module.exports = app;
