@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.text({ type: '*/*', limit: '50mb' }));
 
 // Use Vercel's dynamic base URL or fallback
-const BASE_URL = process.env.BASE_URL || 'https://your-vercel-deployment-url.vercel.app';
+const BASE_URL = process.env.BASE_URL || 'https://bcknd-git-main-sambhrams-projects-06a377b2.vercel.app/';
 
 // Provider IDs
 const KAGGLE_PROVIDER_ID = 'c94476a0-8a75-4563-b70a-bf6124d7c59b';
